@@ -1,0 +1,36 @@
+h1{
+  color: rgb(0, 0, 0);
+  font-size: 45px;
+  background-color: rgb(195, 193, 190);
+  }
+  
+  h3 {
+  
+  color: rgb(0, 0, 0);
+  font-family: "Sans-serif";
+  text-align: center;
+  font-size: 25px;
+  background-color: rgb(211, 180, 134);
+  padding: 30px;
+  
+  
+  }
+
+
+body{
+background-image: url(pexels-cottonbro-4547572.jpg);
+background-size: cover;
+background-position:center;
+box-sizing: border-box;
+font family: sans-serif;
+ 
+}
+.about{
+  text-align: center;
+  box-shadow: 10px 10px 5px #000000;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  padding: 20px;
+  opacity: 0.6;
+}

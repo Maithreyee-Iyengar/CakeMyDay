@@ -1,0 +1,80 @@
+
+h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 10px 3px 5px rgb(187, 181, 181);
+width: 270px;
+margin-left: 590px;
+font-size: 50px;
+}
+h3{
+color: rgb(255, 255, 255);
+width: 300px;
+font-size: xx-large;
+}
+p{
+color: rgb(255, 255, 255);
+    width:60%;
+    margin-right: 35px;
+    font-size: 20px;
+}
+
+
+body{
+content: "";
+background-image: url('team.jpeg');
+background-repeat: no-repeat;
+background-size: cover;
+position: absolute;
+top: 0px;
+right: 0px;
+bottom: 0px;
+left: 0px;
+
+}
+
+.niharika{
+width: 175px;
+border-radius: 50%;
+
+float: left;
+margin-right: 40px;
+}
+.n{
+    width: 20%;
+    float: left;
+background-color: rgb(24, 6, 6);
+opacity: 0.6;
+float: left;
+display:block;
+margin-top: 50px;
+margin-right: 80px;
+}
+.msm{
+    width: 160px;
+    border-radius: 50%;
+    
+    float: right;
+    margin-left: 10px;
+}
+
+.m{
+float: right;
+margin-top: 50px;
+display:block;
+background-color: rgb(24, 6, 6);
+opacity: 0.6;
+margin-left: 0px;
+width: 20%;
+margin-right: 30px;
+}
+.skill-row{
+    width: 50%;
+    
+    text-align: left;
+    line-height: 1;
+    
+    
+    border-radius: 100px;
+  
+  }

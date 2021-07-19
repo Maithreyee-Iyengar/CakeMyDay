@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Client Reviews</title>
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<link rel="stylesheet" href="style4.css">
+</head>
+<body>
+<h1> <center>Client Reviews</center></h1>
+<section>
+<div class="swiper-container mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"> 
+         <div class="testimonialBox">
+<img src="quotation.png" class="quote">
+<div class="content">
+<p> The cake was beautiful and absolutely delicious! They perfectly executed the design that we wanted and it turned out to be very elegant.</p>
+
+<div class="details">
+<div class="imgBx">
+<img src="user.png">
+</div>
+<h3> Ayush <br><span>Student</span></h3>
+ </div>
+          
+        </div>
+        
+    </div>
+</div>
+
+ <div class="swiper-slide"> 
+         <div class="testimonialBox">
+<img src="quotation.png" class="quote">
+<div class="content">
+<p> The cake was so flavorful — like we knew it would be! We received compliments all night from our guests about how much they enjoyed the cake!</p>
+
+<div class="details">
+<div class="imgBx">
+<img src="user1.png">
+</div>
+<h3> Riya <br><span>Home-maker</span></h3>
+ </div>
+          
+        </div>
+        
+    </div>
+</div>
+
+
+
+ <div class="swiper-slide"> 
+         <div class="testimonialBox">
+<img src="quotation.png" class="quote">
+<div class="content">
+<p> Great neighborhood bakery. Excellent selection of cakes,cupcakes and muffins. If you love sweet treats, you need to visit.</p>
+
+<div class="details">
+<div class="imgBx">
+<img src="user1.png">
+</div>
+<h3> Anjali <br><span>Teacher</span></h3>
+ </div>
+          
+        </div>
+        
+    </div>
+</div>
+
+
+
+</div>
+</div>
+
+</section>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+
+</body>
+</html>
