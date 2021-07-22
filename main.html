@@ -49,12 +49,40 @@
 </div>
 
 <div class="button">
-<button class="btn"><a style="color: cornsilk;" href="cake.html">Make a Cake</a></button><br><br><br>
-<button class="btn"><a style="color: cornsilk;" href="cupcake.html">Make a Cupcake</a></button><br><br> <br>
-<button class="btn"><a  style="color: cornsilk;"href="muffin.html">Make a Muffin</a></button>
+
+<form action="">
+    
+<input id="myButton" type="button" name="cake"  value="Make a Cake">
+<br>
+
+<hr>
+<input id="myButton1" type="button" placeholder="Make a Cupcake" name="cupcake" value="Make a Cupcake">
+
+<br>
+
+<hr>
+<input id="myButton2" type="button" name="muffin"  value="Make a Muffin">
+
+</form>
 </div>
 
 </body>
+<script type="text/javascript">
+document.getElementById("myButton").onclick = function () {
+        location.href = "cake.html";
+    
+    };   
+    document.getElementById("myButton1").onclick = function () {
+        location.href = "cupcake.html";
+
+       
+    };
+    document.getElementById("myButton2").onclick = function () {
+        location.href = "muffin.html";
+
+    
+    };
+</script>
 </html>
 
 
