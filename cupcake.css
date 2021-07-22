@@ -212,7 +212,10 @@ color: white;
 padding: 10px 24px;
 
 
- 
 
-
+}
+p{
+  margin-top: 10px;
+  background-color:rgb(159, 223, 223);width: 40%; color:black;font-family: 'Tangerine', cursive;font-size: 40px ;
+  border-bottom-right-radius: 25px;
 }
