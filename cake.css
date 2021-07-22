@@ -221,7 +221,10 @@ padding: 10px 24px;
 }
 p{
   margin-top: 10px;
-  background-color: rgb(250, 206, 243);width: 40%; color:black;font-family: 'Tangerine', cursive;font-size: 40px ;
+  background-color: rgb(250, 206, 243);
+width: 40%; 
+color:black;font-family: 'Tangerine', cursive;
+font-size: 40px ;
 
 border-bottom-right-radius: 25px;
 }
