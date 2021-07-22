@@ -2,13 +2,12 @@
 
 h1
 {
-color: rgb(0, 0, 0);
-width: 700px;
-margin-left: 350px;
+color: rgb(255, 255, 255);
+width: 340px;
+
 padding: 10px 10px 10px 10px;
-background-color: #fff3f3;
-box-shadow: 10px 3px 5px rgb(0, 0, 0);
-font-size: 55px;
+margin-top: 0px;
+font-size: 45px;
 font-weight: bold;
 font-family: 'Tangerine', cursive;
 
@@ -19,9 +18,11 @@ font-family: 'Tangerine', cursive;
 }
 
 .login-page {
-  width: 360px;
+  width: 365px;
   padding: 3% 0 0;
   margin: auto;
+  margin-top: 90px;
+  box-shadow: 10px 3px 5px rgb(0, 0, 0);
 }
 .form {
   box-shadow: 10px 3px 5px rgb(0, 0, 0);
@@ -30,6 +31,7 @@ font-family: 'Tangerine', cursive;
   background: #FFFFFF;
   max-width: 360px;
   margin: 0 auto 100px;
+  margin-top: 0px;
   padding: 45px;
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
